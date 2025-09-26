@@ -1,22 +1,4 @@
-# Test GitHub Project
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Project Description
-
-This is a test project created to demonstrate GitHub workflow including:
-- Next.js project setup
-- Git repository initialization
-- GitHub repository creation
-- Pull request workflow
-
-## Features
-
-- ⚡ Next.js 15 with App Router
-- 🎨 Tailwind CSS for styling
-- 📝 TypeScript support
-- 🔍 ESLint for code quality
-- 📱 Responsive design
 
 ## Getting Started
 
