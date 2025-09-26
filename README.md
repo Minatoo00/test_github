@@ -1,54 +1,116 @@
-# Test GitHub Project
+# 📝 Todo App - Next.js Project
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a modern Todo application built with [Next.js](https://nextjs.org) and TypeScript, featuring a beautiful UI and intuitive user experience.
 
-## Project Description
+## 🚀 Live Demo
 
-This is a test project created to demonstrate GitHub workflow including:
-- Next.js project setup
-- Git repository initialization
-- GitHub repository creation
-- Pull request workflow
+Visit the live application: [Todo App](https://test-github-minatoo00.vercel.app)
 
-## Features
+## ✨ Features
 
-- ⚡ Next.js 15 with App Router
-- 🎨 Tailwind CSS for styling
-- 📝 TypeScript support
-- 🔍 ESLint for code quality
-- 📱 Responsive design
+- 📝 **Task Management**: Create, complete, and delete tasks
+- 📊 **Progress Tracking**: Visual progress bar with completion percentage
+- 🎨 **Modern UI**: Beautiful gradient background and responsive design
+- ⌨️ **Keyboard Shortcuts**: Enter key to add tasks
+- 📱 **Responsive Design**: Works perfectly on all devices
+- 🎯 **Interactive Elements**: Smooth animations and transitions
 
-## Getting Started
+## 🛠️ Tech Stack
 
-First, run the development server:
+- ⚡ **Next.js 15** with App Router
+- 🎨 **Tailwind CSS** for styling
+- 📝 **TypeScript** for type safety
+- 🔍 **ESLint** for code quality
+- 📱 **Responsive design**
+
+## 📚 Documentation
+
+- 📖 **[Web App Documentation](./docs/WEBAPP.md)** - Complete application guide
+- 🔧 **[Technical Specification](./docs/TECHNICAL_SPEC.md)** - Technical details and architecture
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18.0 or later
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/Minatoo00/test_github.git
+cd test_github
+
+# Install dependencies
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Start the development server
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Open http://localhost:3000 in your browser
+```
 
-## Learn More
+### Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Build for production
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Start production server
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎮 How to Use
 
-## Deploy on Vercel
+1. **Add Tasks**: Type in the input field and press Enter or click "追加"
+2. **Complete Tasks**: Click the checkbox next to any task
+3. **Delete Tasks**: Click "削除" to remove individual tasks
+4. **Clear All**: Use "すべて削除" to remove all tasks
+5. **Track Progress**: Monitor completion percentage in the progress bar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏗️ Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+test_github/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx          # App layout
+│   │   └── page.tsx            # Main page
+│   └── components/
+│       └── TodoApp.tsx         # Main Todo component
+├── docs/
+│   ├── WEBAPP.md              # Application documentation
+│   └── TECHNICAL_SPEC.md      # Technical specification
+├── public/                    # Static assets
+└── README.md                  # This file
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔗 Links
+
+- **GitHub Repository**: https://github.com/Minatoo00/test_github
+- **Live Demo**: https://test-github-minatoo00.vercel.app
+- **Pull Requests**: 
+  - [PR #1: Initial Setup](https://github.com/Minatoo00/test_github/pull/1)
+  - [PR #2: Todo App](https://github.com/Minatoo00/test_github/pull/2)
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org)
+- Styled with [Tailwind CSS](https://tailwindcss.com)
+- Deployed on [Vercel](https://vercel.com)
